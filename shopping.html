@@ -1,0 +1,171 @@
+<html>
+<head>
+    <title>shopping</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body><nav class="navbar-inverse" style="position: sticky;top:0;z-index:100;">
+            
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">menu</a>
+        </div>
+        <div class="navbar-collapse collapse" id="mynavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+             <li><a href="shopping.html">Shopping</a></li>
+             <li><a href="bills.html">Bills</a></li>
+             <li><a href="entertainment.html">Entertainment</a></li>
+             <li> <a href="#My Account">My Account</a></li>
+                
+            </ul>
+        </div> 
+        
+    </nav>
+        <label  for="search"></label>
+        <input  type="text" placeholder="search">
+        <div class="row">
+        <div class="col">
+    <img  src="https://layout.naptol.com/usr/local/csp/staticContent/naaptolAds/Mens-collection-01.jpg" width="100%">
+        <h1>Mens collection</h1>
+            </div>
+            <div class="col">
+        <img src="https://cdn1.vectorstock.com/i/1000x1000/24/95/women-online-shopping-vector-26982495.jpg" width="100%;">
+        <h2>womens collection</h2>
+            </div>
+            <div class="col">
+            <img src="https://www.shutterstock.com/image-vector/vector-illustration-kids-shopping-260nw-1117348889.jpg" width="100%"> 
+                <h3>kids wear</h3>
+            </div>
+            <div class="col">
+                <img src="https://www.shutterstock.com/image-photo/groceries-shopping-flat-lay-fruits-260nw-2125529039.jpg" width="100%">
+                <h4>Fresh Grocery</h4>
+            </div>
+       </div> 
+       <footer>
+        <div class="footercontainer">
+            <div class="socialicons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <Li><a href="">Home</a></Li>
+                    <Li><a href="">News</a></Li>
+                    <Li><a href="">About</a></Li>
+                    <Li><a href="">contact us</a></Li>
+                    <Li><a href="">Our Team</a></Li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by<span class="designer">Sadiq</span></p>
+        </div>
+    </footer>
+    </body>
+    <style>
+        
+        body{
+            background-color: rgb(109, 205, 218);
+        }
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .col{
+            float: left;
+            width: 25%;
+            padding: 2px;
+        }
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+background-color: #111;
+transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+    </style>
+</html>
